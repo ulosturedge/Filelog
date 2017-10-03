@@ -1,0 +1,225 @@
+body {
+    
+    /*font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+    font-size:16px;
+    font-weight: 800;*/
+    
+}
+h1 {
+    
+  font-family: 'Francois One', sans-serif; 
+}
+
+h7 {
+    
+   /*font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+    font-size:16px;*/
+    font-weight: 600;
+    
+}
+
+table {
+    
+   width:100% !important: 
+}
+
+tr {
+    
+    background-color: #F2F2F2 !important;
+}
+
+th {
+    background-color: #337ab7;
+    color: white;
+} 
+.navbar-inverse {
+    background-color: #525252;
+}
+.side-nav {
+    margin-top: 10px;
+}
+.navbar-inverse .navbar-brand {
+    color: white !important;
+    position: relative;
+    left:-350px !important;
+}
+.fa {
+    font-size: 20px;
+    color:white;
+}
+/*****************************************************
+Highlight row on hover for Datatables
+*******************************************************/
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #e2e2e2;
+}
+
+.export_form {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color: none;
+overflow:auto;
+
+
+}
+img#close {
+position:absolute;
+right:5px;
+top:5px;
+cursor:pointer;
+width: 24px;
+height: 24px;
+}
+div#popupContact {
+position:absolute;
+left:50%;
+top:0%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif;
+z-index:99;
+
+}
+#formpop {
+max-width:400px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff;
+}
+/*p {
+margin-top:30px
+}*/
+/*h2 {
+background-color:#FEFFED;
+padding:20px 35px;
+margin:-10px -50px;
+text-align:center;
+border-radius:10px 10px 0 0
+}*/
+hr {
+margin:10px -50px;
+border:0;
+border-top:1px solid #ccc
+}
+input[type=text] {
+width:82%;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway
+}
+#name {
+background-image:url(../images/name.jpg);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#email {
+background-image:url(../images/email.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+textarea {
+background-image:url(../images/msg.png);
+background-repeat:no-repeat;
+background-position:5px 7px;
+width:82%;
+height:95px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+margin-bottom:30px
+}
+#submit {
+text-decoration:none;
+width:100%;
+text-align:center;
+display:block;
+background-color:#FFBC00;
+color:#fff;
+border:1px solid #FFCB00;
+padding:10px 0;
+font-size:20px;
+cursor:pointer;
+border-radius:5px
+}
+/*span {
+color:red;
+font-weight:700
+}*/
+button {
+width:70px;
+height:20px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:12px;
+cursor:pointer
+}
+#popup {
+display: block;
+
+}
+#notes {
+    height:100px;
+    width: 300px;
+}
+#add_note {
+    position: relative;
+    top: -10px;
+    white-space: nowrap !important;
+}
+#file_label {
+    position: relative !important;
+    top: 10px !important;
+    margin-bottom: 20px !important;
+}
+#note_label {
+    position: relative !important;
+    top:50%; !important;
+}
+
+
+/**************************************************
+Dashboard status elements
+**************************************************/
+#active_status {
+    
+   background-color: #68ed47;
+}
+
+#output_ready {
+    
+    background-color: #2665FF;
+    color:white;
+    /*color: #F2F2F2;*/
+}
+#new_status {
+    
+    background-color: #ffff2d;
+}
